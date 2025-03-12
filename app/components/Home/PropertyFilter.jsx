@@ -17,7 +17,8 @@ const PropertyFilter = () => {
   const [propertySize, setPropertySize] = useState("");
   const [priceRange, setPriceRange] = useState("");
 
-  useEffect(() => {
+useEffect(() => {
+  if (typeof window !== "undefined") {
     const params = new URLSearchParams();
     if (propertyType) params.append("propertyType", propertyType);
     if (bedroom) params.append("bedroom", bedroom);
@@ -26,7 +27,9 @@ const PropertyFilter = () => {
 
     const newUrl = `${window.location.pathname}?${params.toString()}`;
     window.history.replaceState({}, "", newUrl);
-  }, [propertyType, bedroom, propertySize, priceRange]);
+  }
+}, [propertyType, bedroom, propertySize, priceRange]);
+
 
   const resetFilters = () => {
     setPropertyType("");
