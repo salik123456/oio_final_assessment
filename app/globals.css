@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Roboto", "sans-serif";
+  --font-body: "Roboto", "sans-serif";
+
+  --breakpoint-3xl: 1920px;
+
+
+  --color-primary: oklch(0.29 0.14 263.53); /* Dark Blue */
+  --color-secondary: oklch(0.85 0.19 75); /* Gold */
+
+}
+
+
