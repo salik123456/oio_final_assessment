@@ -9,7 +9,7 @@ const OffPlanProject = () => {
   const slides = [
     {
       title: "SAADIYAT LAGOONS",
-      image: "/offPlan/off-plan.png", 
+      image: "https://media.licdn.com/dms/image/v2/D4D12AQHAGD2YFEo5eg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1704371611373?e=2147483647&v=beta&t=bzFpn4BfqpcV6VL-BjNfdavwqzS3yw0sXHaTUgNsltU", 
       villaTypes: [
         "4 BHK VILLA + MAID'S",
         "5 BHK VILLA + MAID'S",
@@ -23,7 +23,7 @@ const OffPlanProject = () => {
     },
     {
       title: "SAADIYAT LAGOONS 2",
-      image: "/offPlan/off-plan.png", 
+      image: "https://media.licdn.com/dms/image/v2/D4D12AQHAGD2YFEo5eg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1704371611373?e=2147483647&v=beta&t=bzFpn4BfqpcV6VL-BjNfdavwqzS3yw0sXHaTUgNsltU", 
       villaTypes: [
         "3 BHK VILLA + MAID'S",
         "4 BHK VILLA + MAID'S",
@@ -36,7 +36,7 @@ const OffPlanProject = () => {
     },
     {
       title: "SAADIYAT LAGOONS 3",
-      image: "/offPlan/off-plan.png", 
+      image: "https://media.licdn.com/dms/image/v2/D4D12AQHAGD2YFEo5eg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1704371611373?e=2147483647&v=beta&t=bzFpn4BfqpcV6VL-BjNfdavwqzS3yw0sXHaTUgNsltU", 
       villaTypes: [
         "1 BHK VILLA + MAID'S",
         "4 BHK VILLA + MAID'S",
