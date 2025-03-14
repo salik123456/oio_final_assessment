@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import offPlanImg from '@/public/offplan.png'
+import offPlanImg from '@/public/off-plan.png'
 
 const OffPlanProject = () => {
   const slides = [
