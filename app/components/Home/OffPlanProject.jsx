@@ -9,7 +9,7 @@ const OffPlanProject = () => {
   const slides = [
     {
       title: "SAADIYAT LAGOONS",
-      image: "offPlan/off-plan.png", 
+      image: "/offPlan/off-plan.png", 
       villaTypes: [
         "4 BHK VILLA + MAID'S",
         "5 BHK VILLA + MAID'S",
@@ -23,7 +23,7 @@ const OffPlanProject = () => {
     },
     {
       title: "SAADIYAT LAGOONS 2",
-      image: "offPlan/off-plan.png", 
+      image: "/offPlan/off-plan.png", 
       villaTypes: [
         "3 BHK VILLA + MAID'S",
         "4 BHK VILLA + MAID'S",
@@ -36,7 +36,7 @@ const OffPlanProject = () => {
     },
     {
       title: "SAADIYAT LAGOONS 3",
-      image: "offPlan/off-plan.png", 
+      image: "/offPlan/off-plan.png", 
       villaTypes: [
         "1 BHK VILLA + MAID'S",
         "4 BHK VILLA + MAID'S",
