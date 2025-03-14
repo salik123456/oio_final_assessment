@@ -3,13 +3,13 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import offPlanImg from '@/public/off-plan.png'
+
 
 const OffPlanProject = () => {
   const slides = [
     {
       title: "SAADIYAT LAGOONS",
-      image: offPlanImg,
+      image: "/off-plan.png", 
       villaTypes: [
         "4 BHK VILLA + MAID'S",
         "5 BHK VILLA + MAID'S",
@@ -23,7 +23,7 @@ const OffPlanProject = () => {
     },
     {
       title: "SAADIYAT LAGOONS 2",
-      image: offPlanImg, 
+      image: "/off-plan.png", 
       villaTypes: [
         "3 BHK VILLA + MAID'S",
         "4 BHK VILLA + MAID'S",
@@ -36,7 +36,7 @@ const OffPlanProject = () => {
     },
     {
       title: "SAADIYAT LAGOONS 3",
-      image: offPlanImg, 
+      image: "/off-plan.png", 
       villaTypes: [
         "1 BHK VILLA + MAID'S",
         "4 BHK VILLA + MAID'S",
